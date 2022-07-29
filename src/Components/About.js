@@ -3,7 +3,7 @@ import React from 'react'
 export default function About(props) {
   return (
     <>
-    <div className="conatiner my-4">
+    <div className="conatiner" style={{marginTop: '80px'}}>
     <div class={`p-5 mb-4 bg-${props.toggleType === "dark" ? "light" : "dark"} rounded-3 text-${props.toggleType === "dark" ? "dark" : "light"}`}>
         <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">About iNoteBook</h1>
