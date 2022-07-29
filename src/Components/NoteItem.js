@@ -10,6 +10,8 @@ export default function NoteItem(props) {
         <h5 className="card-title">{note.title}</h5>
         <h6 className="card-subtitle mb-2 active">{note.tag}</h6>
         <p className="card-text">{note.description}</p>
+        <i class="fa-solid fa-trash text-danger mx-2"></i>
+        <i class="fa-solid fa-file-pen mx-2 text-success"></i>
         </div>
     </div>
     </div>
